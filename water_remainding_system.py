@@ -22,7 +22,7 @@ class Student:
         self.root.title("Water Remainder System")
         self.root.geometry("500x500+0+0")
         self.root.resizable(0, 0)
-        root.wm_iconbitmap('.\water.ico.py')
+        root.wm_iconbitmap('.\water.ico')
         title = Label(self.root, text="Welcome to Water Reminder !!", bd=10, relief=SOLID,
                       font=("Times New Roman", 25, "bold"), bg="#404040", fg="White")
         title.pack(side=TOP, fill=X)
